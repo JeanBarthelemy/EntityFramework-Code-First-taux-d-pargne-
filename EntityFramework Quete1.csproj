@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>EntityFramework_Quete1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessageBox" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>

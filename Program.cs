@@ -33,7 +33,7 @@ namespace EntityFramework_Quete1
                 DateTime date1 = new DateTime(2020, 3, 9);
                 DateTime date2 = new DateTime(2023, 3, 9);
                 double totalAmountSaved = SavingCalculator.CalculateTotalSaved(date1, date2, person);
-                //MessageBox.Show("The total amount saved in this period : " + totalAmountSaved, "Amout Saved", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                
             }
        
         }
